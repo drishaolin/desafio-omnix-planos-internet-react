@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import PagesHeader from "./components/PagesHeader";
+import Routes from "./pages/Routes";
 
 const BgCircle = styled.div`
     z-index: -1;
@@ -21,8 +21,7 @@ function App() {
           <BgCircle height="50rem" width="50rem" top="-25rem" right="-25rem" />;
           <BgCircle height="20rem" width="20rem" bottom="-10rem" right="5%" />;
           <BgCircle height="30rem" width="30rem" top="-5rem" right="35%" />;
-          
-            <PagesHeader />
+          <Routes/>
         </div>
     );
 }
